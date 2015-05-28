@@ -1,22 +1,33 @@
 <div id="navigation">
     <div class="profile-picture">
         <div class="stats-label text-color">
+            <br><br><br><br>
+
             <span class="font-extra-bold font-uppercase">Username</span>
+            <br>
 
             <div class="dropdown" dropdown >
                 <a dropdown-toggle class="dropdown-toggle" href="#">
-                    <small class="text-muted">Founder of App <b class="caret"></b></small>
+<!--                    <small class="text-muted">Founder of App <b class="caret"></b></small>  -->
                 </a>
+                <!--
                 <ul class="dropdown-menu animated fadeInRight m-t-xs">
                     <li><a>Item</a></li>
                 </ul>
+                -->
             </div>
         </div>
     </div>
 
     <ul side-navigation class="nav" id="side-menu">
         <li ui-sref-active="active">
-            <a ui-sref="dashboard"> <span class="nav-label">Dashboard</span></a>
+            <a ui-sref="dashboard"> <span class="nav-label">걱정 종합상황실 </span></a>
+        </li>
+        <li>
+            <a ui-sref="analytics"> <span class="nav-label">걱정 분석실</span> </a>
+        </li>
+        <li>
+            <a ui-sref="projects"> <span class="nav-label">시민 연구원</span> </a>
         </li>
     </ul>
 </div>

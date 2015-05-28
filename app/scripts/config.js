@@ -21,6 +21,25 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider) {
                 pageTitle: 'Dashboard',
             }
         })
+
+        // Analytics
+        .state('analytics', {
+            url: "/analytics",
+            templateUrl: "views/analytics.html",
+            data: {
+                pageTitle: 'Analytics',
+            }
+        })
+
+        // Team
+        .state('projects', {
+            url: "/projects",
+            templateUrl: "views/projects.html",
+            data: {
+                pageTitle: 'Projects',
+            }
+        })
+
 }
 
 angular

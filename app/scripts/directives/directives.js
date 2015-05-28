@@ -23,9 +23,9 @@ function pageTitle($rootScope, $timeout) {
         link: function(scope, element) {
             var listener = function(event, toState, toParams, fromState, fromParams) {
                 // Default title
-                var title = 'HOMER | AngularJS Responsive WebApp';
+                var title = '나라걱정21 | NationalWorry21 Project';
                 // Create your own title pattern
-                if (toState.data && toState.data.pageTitle) title = 'HOMER | ' + toState.data.pageTitle;
+                if (toState.data && toState.data.pageTitle) title = '나라걱정21 | ' + toState.data.pageTitle;
                 $timeout(function() {
                     element.text(title);
                 });
